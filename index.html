@@ -3,32 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Abee Shanmugarajah | Technical Account Manager and Customer Success Manager</title>
-<meta name="description" content="AI in practice portfolio: real client projects across CRM data, automation, security, conversion tracking and SEO.">
+<title>Abee Shanmugarajah | AI in Practice Portfolio</title>
+<meta name="description" content="AI in Practice portfolio: real client projects across MarTech, AdTech, CRM data, automation, conversion tracking, security, SEO and GEO.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+/* Compact tiles with category icons */
+.grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{display:flex;align-items:center;gap:14px;height:96px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:16px;transition:transform .2s,box-shadow .2s,border-color .2s}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.06);border-color:#cfc6b9}
+.card .ico{flex:0 0 44px;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--ink)}
+.card .ico svg{width:22px;height:22px;opacity:.85}
+.card .txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.card h3{font-size:15px;font-weight:600;line-height:1.3;letter-spacing:-.005em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+.card .res{font-size:13px;color:var(--mute);line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .arr{color:var(--mute);font-size:16px;transition:transform .2s,color .2s}
+.card:hover .arr{transform:translateX(3px);color:var(--acc)}
+.lead+.lead{margin-top:14px}.lead b{color:var(--ink);font-weight:600}
+.points{margin:12px 0 0 18px;color:var(--mute);font-size:15px}.points li{margin-bottom:6px}
+@media(max-width:600px){.grid{grid-template-columns:1fr;gap:10px}.card{height:84px;padding:12px 14px}.card .ico{flex-basis:40px;width:40px;height:40px}}
+</style>
 </head>
 <body>
 
 <header class="hero wrap">
   <p class="eyebrow">London, UK</p>
   <h1>Abee Shanmugarajah</h1>
-  <p class="role">Technical Account Manager <span>and</span> Customer Success Manager</p>
-  <p class="lead">I'm the technical point of contact for close to 100 client accounts at a London web, development and data agency. I find what's wrong, plan the fix, brief developers, and explain it to clients in plain English.</p>
+  <p class="role">AI in Practice Portfolio</p>
+  <p class="lead"><b>I connect marketing, data and technology.</b> As an Account Manager at a London web, development and data agency, I'm the technical point of contact for key client accounts and coordinate with server and development teams for the wider client portfolio.</p>
+  <p class="lead">I work across <b>MarTech, AdTech, CRM, conversion tracking, SEO and GEO</b>, and use AI every day to find what's wrong, fix it faster and explain it in plain English.</p>
   <div class="cta">
     <a class="btn primary" href="mailto:abeedarshans@gmail.com">Email me</a>
     <a class="btn" href="https://www.linkedin.com/in/abeedarshan-shanmugarajah" target="_blank" rel="noopener">LinkedIn</a>
   </div>
   <div class="values">
-    <div><p class="num">01</p><h3>Own the client relationship</h3><p><b>7+ years</b> in client facing roles, from global brands like Booking.com to <b>close to 100</b> accounts today.</p></div>
-    <div><p class="num">02</p><h3>Fix the technical problem</h3><p>Hosting, DNS, tracking and security. I brief developers and keep clients informed at every step.</p></div>
-    <div><p class="num">03</p><h3>Prove it with data</h3><p>GA4, Search Console and CRM data behind every recommendation I make.</p></div>
+    <div><h3>Own the client relationship</h3><p><b>7+ years</b> in client facing roles, from global brands like <b>Petronas</b> to <b>key client accounts</b> today.</p></div>
+    <div><h3>Fix the technical problem</h3><p><b>Hosting, DNS, server side tracking and security.</b> I scope the fix, bring developers, hosting providers and clients together, and see it through testing and release, keeping everyone informed at every step.</p></div>
+    <div><h3>Prove it with data</h3><p><b>GA4, Search Console, ad platform consoles and CRM data</b> behind every recommendation I make. I turn analytics into clear insights that clients can act on.</p></div>
   </div>
 </header>
 
 <main id="work" class="wrap">
-  <h2 class="big-h">AI in practice</h2>
+  <h2 class="big-h">Selected projects</h2>
   <p class="sub">Real client work, real results. Tap any card for the full story.</p>
   <div class="chips" id="chips"></div>
   <div class="grid" id="grid"></div>
@@ -42,13 +59,23 @@
     <div>
       <h3>Lead, Account Management</h3>
       <p class="meta">Enfection, Colombo, Sri Lanka &middot; 2019 to 2022</p>
-      <p>Led client relationships and global B2B and B2C digital campaigns. Managed and coached a team of five performance marketers and led the agency's conversion rate optimisation work.</p>
+      <p>Led client relationships and global B2B and B2C digital campaigns, owning each account from brief to performance reporting.</p>
+      <ul class="points">
+        <li>Exceeded monthly upsell targets in nine to ten months a year across five to six accounts, leading and coaching a team of five performance marketers.</li>
+        <li>Launched Dialog Axiata's Genie mobile app, tracking downloads and app analytics in Firebase and optimising campaigns daily in the first two weeks.</li>
+        <li>Delivered dynamic ad banners for Petronas targeting B2B investors, part of the campaign that won a special award at The Drum Awards APAC 2021.</li>
+        <li>Led the agency's conversion rate optimisation work, coordinating creative, web and analytics teams.</li>
+      </ul>
       <ul class="brands"><li>Booking.com</li><li>Costa Coffee</li><li>Petronas</li><li>Dialog Axiata</li><li>Honeywell</li><li>MSD</li><li>WSO2</li><li>Xonetic UK</li><li>Rocell</li></ul>
     </div>
     <div>
       <h3>Digital Marketing Manager</h3>
       <p class="meta">Tiger Global &middot; 2023, part time</p>
-      <p>Grew ecommerce sales through Google Ads, Meta Ads and SEO, and fixed drop off points in the customer journey.</p>
+      <p>Worked with several retail brands on their ecommerce platforms to grow online sales.</p>
+      <ul class="points">
+        <li>Mapped the customer journey to find conversion and drop off points.</li>
+        <li>Optimised Google Ads, Meta Ads and SEO to turn those findings into sales.</li>
+      </ul>
     </div>
   </div>
   <div class="facts">
@@ -64,7 +91,7 @@
     </div>
     <div>
       <p class="label">Tools</p>
-      <p>HubSpot, Zapier, GA4, Google Tag Manager, Google Ads, Microsoft Ads, Meta Ads, LinkedIn Ads, Search Console, Ahrefs, SEMrush, Cloudflare, WordPress</p>
+      <p>Claude and other AI tools, HubSpot, Zapier, GA4, Google Tag Manager, Stape, Looker Studio, Google Ads, Microsoft Ads, Meta Ads, LinkedIn Ads, Search Console, Ahrefs, SEMrush, Cloudflare, WordPress</p>
     </div>
   </div>
 </section>
